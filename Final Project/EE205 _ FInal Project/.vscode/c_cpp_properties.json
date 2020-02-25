@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Frendy/Desktop/Test",
+                "C:/SFML-2.5.1/include",
+                "C:/SFML-2.5.1/lib",
+                "C:/SFML-2.5.1/lib/cmake/SFML",
+                "C:/SFML-2.5.1/include/SFML"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17134.0",
+            "compilerPath": "C:/mingw32/bin/gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path": [
+                    "C:/Users/Frendy/Desktop/Test",
+                    "C:/SFML-2.5.1/include",
+                    "C:/SFML-2.5.1/include/SFML",
+                    "C:/SFML-2.5.1/lib",
+                    "C:/SFML-2.5.1/lib/cmake/SFML",
+                    "${workspaceFolder}/**"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

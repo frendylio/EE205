@@ -1,0 +1,63 @@
+
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build_Final_Project",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+            //Blaine
+               // "Blaine_Rpg.cpp",
+               // "src/Blaine_RPG/collision.hpp",
+               // "src/Blaine_RPG/attacks.hpp",
+               // "src/Blaine_RPG/game.hpp",
+
+            //Key Gen 
+               // "keygen.cpp",
+               // "src/KeyGen/checker.hpp",
+
+            // Yumma
+               // "YummaMain.cpp",
+
+            //Tetris
+                "TetrisMain.cpp",
+                "src/Tetris/Game.cpp",
+                "src/Tetris/KeyBuffer.cpp",
+                "src/Tetris/Pieces.cpp",
+                "src/Tetris/Pit.cpp",
+               "src/Tetris/Score.cpp",
+
+            //Menu
+              //  "MainMenu.cpp",
+              //  "src/Menu/Menu.cpp",
+                //Include
+                "-I${workspaceFolder}/**",
+                "-IC:/SFML-2.5.1/include",
+                "-IC:/SFML-2.5.1/include/SFML",
+                //Load
+                "-LC:/SFML-2.5.1/lib",
+                "-LC:/SFML-2.5.1/lib/cmake/SFML",
+                // For Grpahs
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                // FOr Menu
+                "-lsfml-Audio",
+                "-o",
+               // "KeyGen2"
+                "Tetris"
+                //"Menu"
+                //"Yumma"
+            ]
+        }
+    ],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "problemMatcher":"$gcc"
+}
